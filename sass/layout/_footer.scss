@@ -55,7 +55,7 @@
 }
 
 .join {
-  font-family: "Roboto";
+  font-family: $fontPrimary;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -120,7 +120,7 @@
 }
 
 .footer-mailing-buttom {
-  font-family: "Roboto", sans-serif;
+  font-family: $fontPrimary;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;

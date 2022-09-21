@@ -13,7 +13,11 @@
   margin-left: auto;
 }
 
-.menu-link {
+.menu__item {
+  position: relative;
+}
+
+.menu__link {
   display: inline-block;
   font-weight: 500;
   font-size: 14px;
@@ -29,8 +33,12 @@
   &:active {
     color: var(--accent-color);
   }
+}
 
-  &.current::after {
+.menu__link--current {
+  color: var(--accent-color);
+
+  &::after {
     content: "";
     position: absolute;
     left: 0;
@@ -43,21 +51,13 @@
   }
 }
 
-.menu-item {
-  position: relative;
-}
-
-.link.current {
-  color: var(--accent-color);
-}
-
 .contact-list {
   display: flex;
   column-gap: 50px;
   margin-left: auto;
 }
 
-.contact-link {
+.contact-list__link {
   display: flex;
   align-items: center;
   justify-content: center;

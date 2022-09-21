@@ -5,17 +5,17 @@
 @import "./base/section";
 @import "./base/container";
 
-@import "./components/modal-btn";
 @import "./components/logo";
 @import "./components/backdrop";
-@import "./components/modal-window.scss";
-@import "./components/modal-form.scss";
+@import "./components/modal-btn";
+@import "./components/modal-form";
+@import "./components/modal-window";
 
-@import "./layout/header";
+@import "./layout/page-header";
 @import "./layout/hero";
 @import "./layout/features";
 @import "./layout/about-us";
 @import "./layout/members";
 @import "./layout/clients";
-@import "./layout/portfolio";
 @import "./layout/footer";
+@import "./layout/page-portfolio";
